@@ -1,0 +1,1010 @@
+[
+  {
+    "kategori": "Antipasti",
+    "navn": "Carpaccio",
+    "pris": 105,
+    "kort beskrivelse": "Carpaccio af kalvefilet med basilikum, fenikel, olivenolie, parmesan og pinjekerner",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "Antipasti",
+    "navn": "Arancini",
+    "pris": 145,
+    "kort beskrivelse": "1 Arancini på hummerbisque serveret med citron- og vaniljeolie.",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "Antipasti",
+    "navn": "Tomatsuppe",
+    "pris": 98,
+    "kort beskrivelse": "Kold tomatsuppe med hjemmebagt brød",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "Antipasti",
+    "navn": "Cantaloupe melon salat",
+    "pris": 95,
+    "kort beskrivelse": "Salat med cantaloupe melon, lufttørret skinke og mozzarella",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "Hovedretter",
+    "navn": "Pizza",
+    "pris": 119,
+    "kort beskrivelse": "Pizza med Italiensk salami, Mozzarella, kartoffel, gedeost, rosmarin og trøffelolie.",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "Hovedretter",
+    "navn": "Ravioli",
+    "pris": 126,
+    "kort beskrivelse": "Spinat og ricottaravioli med hjemmelavet tomatsovs, basilikum og hvidløg, toppet med italiensk burrata.",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "Hovedretter",
+    "navn": "Risotto",
+    "pris": 139,
+    "kort beskrivelse": "cremet risotto med kammuslinger, butternut-squash, syltet græskar, ristede græskarkerner, mascarpone og masser af parmesan",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "Hovedretter",
+    "navn": "Kødboller",
+    "pris": 166,
+    "kort beskrivelse": "kødboller i krydret tomatsovs, serveret med linguine, masser af parmesan og krydderurter",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "Dolchi",
+    "navn": "AFFOGATO",
+    "pris": 75,
+    "kort beskrivelse": "AFFOGATO: hjemmerørt Vaniljeis med espressoshot og saltkaramel",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "Dolchi",
+    "navn": "SNEKUGLE",
+    "pris": 123,
+    "kort beskrivelse": "SNEKUGLE MED CHOKOLADEMOUSSE OG GRANATÆBLESORBET",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "Dolchi",
+    "navn": "panna cotta",
+    "pris": 78,
+    "kort beskrivelse": "Vanilje panna cotta med friske jordbær og cantucinicrumble",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "Dolchi",
+    "navn": "Lemonsorbet",
+    "pris": 88,
+    "kort beskrivelse": "Lemonsorbet og Jordbærsorbet, friske bær og mynte",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "Aperitivi",
+    "navn": "Aperol Spritz",
+    "pris": 75,
+    "kort beskrivelse": "Aperol Spritz med cava toppet med danskvand og pyntet med en skive appelsin",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "Aperitivi",
+    "navn": "Gin&tonic",
+    "pris": 75,
+    "kort beskrivelse": "Monkey gin og fevertree tonic med agurk og peber",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "Aperitivi",
+    "navn": "Spumante",
+    "pris": 65,
+    "kort beskrivelse": "Spumante",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "Vini bianchi",
+    "navn": "Chardonnay",
+    "pris": 325,
+    "kort beskrivelse": "2016 Chardonnay, Sogno di Ulisse, Piemonte",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "Vini bianchi",
+    "navn": "Pinot Grigio",
+    "pris": 425,
+    "kort beskrivelse": "2016 Pinot Grigio, Nals Margreid, Alto Adige",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "Vini rossi",
+    "navn": "Amarone",
+    "pris": 825,
+    "kort beskrivelse": "2013 Amarone, della Valpolicella, Tedeschi, Veneto",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "Vini rossi",
+    "navn": "Rosso di Montalcino",
+    "pris": 500,
+    "kort beskrivelse": "2014 Rosso di Montalcino, Poggiarellino, Toscana",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "Vini rosé",
+    "navn": "Sogno di Ulisse",
+    "pris": 375,
+    "kort beskrivelse": "2017 Sogno di Ulisse, Merlot Rosé, Piemonte",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "Vini dolci",
+    "navn": "Birbet",
+    "pris": 325,
+    "kort beskrivelse": "2016 Birbet, Brachetto, Piemonte",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "Bevande",
+    "navn": "Sanpellegrino",
+    "pris": 25,
+    "kort beskrivelse": "Sanpellegrino lemon",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "Bevande",
+    "navn": "Sanpellegrino",
+    "pris": 25,
+    "kort beskrivelse": "Sanpellegrino orange",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "Bevande",
+    "navn": "Sodanvand",
+    "pris": 25,
+    "kort beskrivelse": "Coca cola, coca cola zero, fanta, sprite",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "Bevande",
+    "navn": "Kaffe",
+    "pris": "25-35",
+    "kort beskrivelse": "Americano, latté, cappuccino, espresso shot",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "Bevande",
+    "navn": "BIRRA",
+    "pris": 45,
+    "kort beskrivelse": "Ipa Ale Collesi 8,5%, Producent: Tenute Collesi, Flaskestørrelse: 0,50 l.",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  },
+  {
+    "kategori": "",
+    "navn": "",
+    "pris": "",
+    "kort beskrivelse": "",
+    "lang beskrivelse": "",
+    "billede": ""
+  }
+]

@@ -46,6 +46,8 @@
             width: 40vw;
         }
 
+
+
         a {
             text-decoration: none;
             display: inline-block;
@@ -71,6 +73,45 @@
             font-family: 'Italiana', serif;
 
         }
+
+        #closed {
+            background-color: color: #E5ECF2;
+            color: #55A530;
+            font-family: 'Italiana', serif;
+            font-size: 1.7em;
+        }
+
+
+
+        .data-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+
+        @media only screen and (max-width: 1229px) {
+            .data-container {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media only screen and (max-width: 780px) {
+            .ret img {
+                width: 100%
+            }
+            .data-container {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media only screen and (max-width: 480px) {
+            .ret img {
+                width: 100%
+            }
+            .data-container {
+                grid-template-columns: 1fr;
+            }
+        }
+
     </style>
 </head>
 
@@ -78,12 +119,14 @@
 
     <a href="menu.html" class="back">&#8249;</a>
     <section id="modal">
-        <button>closed</button>
+
+        <button id="closed">Close</button>
         <div id="modal-content">
 
             <h2 class="modal-navn">
             </h2>
             <img class="modal-billede" src="" alt="">
+            <p class="modal-kortbeskrivelse"></p>
         </div>
     </section>
     <header>
@@ -98,7 +141,7 @@
             <article>
                 <h2 class = "data-navn"></h2>
                 <img class = "data-billede"  src = "" alt = "">
-                <p class="data-kortbeskrivelse"></p>
+
                 <p>Pris: <span class="data-pris"></span> DKK </p>
             </article>
         </template>
@@ -152,6 +195,7 @@
                 if (ret.kategori == madFilter) {
                     let klon = temp.cloneNode(true).content;
                     document.querySelector("header h1").textContent = madFilter;
+                    //                    klon.querySelector(".modal-kortbeskrivelse").textContent = retten.kortbeskrivelse;
                     klon.querySelector("img").src = ret.billede;
                     klon.querySelector("img").addEventListener("click", () => {
                         visModal(ret);
@@ -160,10 +204,8 @@
                     klon.querySelector(".data-navn").textContent = ret.navn;
                     klon.querySelector(".data-billede").src = "images/small/" + ret.billede + ".jpg";
                     klon.querySelector(".data-billede").alt = "billede" + ret.navn;
-                    //                    klon.querySelector(".data-billede").addEventListener("click", () => {
-                    //                        window.location.href = "single.html?id=" + ret.id;
-                    //                    });
-                    klon.querySelector(".data-kortbeskrivelse").textContent = ret.kortbeskrivelse;
+
+
                     klon.querySelector(".data-pris").textContent = ret.pris;
                     dest.appendChild(klon);
                 }
@@ -177,6 +219,7 @@
             modal.querySelector(".modal-navn").textContent = retten.navn;
             modal.querySelector(".modal-billede").src = "images/small/" + retten.billede + ".jpg";
             modal.querySelector(".modal-billede").alt = "Foto af " + retten.navn;
+            modal.querySelector(".modal-kortbeskrivelse").textContent = retten.kortbeskrivelse;
             modal.querySelector("button").addEventListener("click", skjulModal);
         }
 
@@ -185,6 +228,7 @@
             modal.classList.remove("vis");
 
         }
+
     </script>
 
 </body>

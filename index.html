@@ -19,7 +19,7 @@
 
     .forside-image {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/forside.jpg);
-        height: 50%;
+        height: 70%;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -101,6 +101,10 @@
         min-width: 150px;
     }
 
+    @media only screen and (max-width: 480px) {
+        .forside-image img {
+            width: 100%
+        }
 </style>
 
 
@@ -163,8 +167,6 @@
 
     </section>
     <script>
-
-
     </script>
 
 </body>

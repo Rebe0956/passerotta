@@ -35,11 +35,15 @@
 
         }
 
+        /*modal vinduet er lukket, men hvis den får tilføjet class: vis, vises det.*/
+
         #modal.vis {
             /*display: block;*/
             opacity: 1;
             pointer-events: all;
         }
+
+        /*højde og bredde på modalvinduets billede. I dette tilfælde kvardratisk*/
 
         #modal img {
             height: 50vh;
@@ -59,11 +63,15 @@
             color: black;
         }
 
+        /*        tilbage knap, style*/
+
         .back {
             background-color: #f1f1f1;
             color: black;
             border-radius: 50%;
         }
+
+        /*        til top knap, style*/
 
         .tiltop a {
 
@@ -74,6 +82,8 @@
 
         }
 
+        /*        closed knap, style. Når modalvindue bliver vist, kan man trykke på close for at fjerne modal*/
+
         #closed {
             background-color: color: #E5ECF2;
             color: #55A530;
@@ -82,11 +92,14 @@
         }
 
 
+        /*grid. Hvor mange columns = fr*/
 
         .data-container {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
         }
+
+        /*        Media queries: hvor mange columns der skal være når fx max width er 1229*/
 
         @media only screen and (max-width: 1229px) {
             .data-container {
@@ -120,11 +133,14 @@
     <!--Modalvindue. Dette er skjult, men vises når der trykkes på en ret-->
     <section id="modal">
         <!--dette er en knap, man trykker på for at lukke sit modalvindue.-->
-        <button id="closed">Close</button>
-        <div id="modal-content">
 
+        <button id="closed">Close</button>
+        <!--        modal content er beregnet til indholdet -->
+        <div id="modal-content">
+            <!--               navn på retten-->
             <h2 class="modal-navn">
             </h2>
+            <!--                tom timg tag til billede af retten-->
             <img class="modal-billede" src="" alt="">
             <p class="modal-kortbeskrivelse"></p>
         </div>
@@ -135,13 +151,17 @@
 
     </header>
     <main class="container">
+        <!--       data container til visning af alle retter -->
         <section class="data-container"></section>
     </main>
+    <!--    template til visning af den enkelte ret-->
     <template class="retter-template">
             <article>
-                <h2 class = "data-navn"></h2>
-                <img class = "data-billede"  src = "" alt = "">
 
+                <h2 class = "data-navn"></h2>
+
+                <img class = "data-billede"  src = "" alt = "">
+<!--pris på retten-->
                 <p>Pris: <span class="data-pris"></span> DKK </p>
             </article>
         </template>
@@ -162,11 +182,12 @@
         console.log(kategori);
 
         let modal = document.querySelector("#modal");
+        //dest er dem DOM element , retterne skal vises i
         let dest = document.querySelector(".data-container"),
             retter,
             madFilter = kategori;
         document.addEventListener("DOMContentLoaded", hentJson);
-
+        //Indlæser data fra Json
         async function hentJson() {
             let jsonData = await fetch("csvjson.json");
             retter = await jsonData.json();
@@ -175,15 +196,9 @@
 
             visRetter();
         }
-        //      document.querySelectorAll(".menu-item").forEach(knap => { // knap.addEventListener("click", filtrering) // });
 
-        //        function filtrering() {
-        //            dest.textContent = "";
-        //            madFilter = this.getAttribute("data-mad");
-        //            console.log(madFilter);
-        //            visRetter();
-        //        }
 
+        // viser alle retter. Skabelon til hver ret hentes i template tagget. Sætter eventlistner på rettens billede og kalder visModal når der klikkes.
 
         function visRetter() {
 
@@ -212,7 +227,7 @@
 
             });
         }
-
+        //viser modalvinduet og rettens data (kort besrivelse, navn og billede). sætter eventlistener på close-knappen og udfører skjulModal hvis man klikker.
         function visModal(retten) {
 
             modal.classList.add("vis");
@@ -222,7 +237,7 @@
             modal.querySelector(".modal-kortbeskrivelse").textContent = retten.kortbeskrivelse;
             modal.querySelector("button").addEventListener("click", skjulModal);
         }
-
+        //funktion skjuler modal/fjerner modalvinduet.
         function skjulModal() {
             //            window.scrollTo(0);
             modal.classList.remove("vis");

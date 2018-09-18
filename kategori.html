@@ -43,7 +43,7 @@
 
         #modal img {
             height: 50vh;
-            width: 50vw;
+            width: 50vh;
         }
 
 
@@ -115,10 +115,11 @@
 </head>
 
 <body>
-
+    <!--tilbage knap-->
     <a href="menu.html" class="back">&#8249;</a>
+    <!--Modalvindue. Dette er skjult, men vises når der trykkes på en ret-->
     <section id="modal">
-
+        <!--dette er en knap, man trykker på for at lukke sit modalvindue.-->
         <button id="closed">Close</button>
         <div id="modal-content">
 
@@ -216,7 +217,7 @@
 
             modal.classList.add("vis");
             modal.querySelector(".modal-navn").textContent = retten.navn;
-            modal.querySelector(".modal-billede").src = "images/small/" + retten.billede + ".jpg";
+            modal.querySelector(".modal-billede").src = "images/medium/" + retten.billede + ".jpg";
             modal.querySelector(".modal-billede").alt = "Foto af " + retten.navn;
             modal.querySelector(".modal-kortbeskrivelse").textContent = retten.kortbeskrivelse;
             modal.querySelector("button").addEventListener("click", skjulModal);
